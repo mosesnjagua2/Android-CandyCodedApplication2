@@ -47,6 +47,8 @@ public class _1_StartTheStoreInformationActivity {
             // Return a mocked Intent from the call to its constructor.
             PowerMockito.whenNew(Intent.class).withAnyArguments().thenReturn(intent);
 
+
+
             // We expect calling onCreate() to throw an Exception due to our mocking. Ignore it.
             try {
                 activity.onCreate(bundle);
