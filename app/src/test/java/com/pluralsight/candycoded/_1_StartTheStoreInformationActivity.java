@@ -49,6 +49,7 @@ public class _1_StartTheStoreInformationActivity {
 
 
 
+
             // We expect calling onCreate() to throw an Exception due to our mocking. Ignore it.
             try {
                 activity.onCreate(bundle);
